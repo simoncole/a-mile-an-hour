@@ -4,6 +4,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main>
+      <title>A Mile An Hour</title>
       <div className={styles.mainWrapper}>
         <h2 id="i-ran-a-marathon-and-built-a-website-at-the-same-time">I ran a marathon... and built a website at the same time</h2>
         <p>&quot;If you can fill the unforgiving minute with 60 seconds worth of distance run, yours is the Earth and everything that&#39;s in it&quot; - Rudyard Kipling, <em>If</em></p>
