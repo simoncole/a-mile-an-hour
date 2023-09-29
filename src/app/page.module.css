@@ -1,5 +1,4 @@
 .mainWrapper {
-  padding: 2rem;  
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 2;
 }
@@ -7,8 +6,7 @@
 .imageWrapper {
   display: flex;
   justify-content: center;
-  align-items: start;
-  
+  align-items: first;
 }
 
 .verticalFlexWrapper {
@@ -16,4 +14,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .imageWrapper {
+    flex-direction: column;
+  }
 }
